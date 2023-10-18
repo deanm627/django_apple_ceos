@@ -1,0 +1,11 @@
+[
+    {
+        "model": "apple_ceos.CEO",
+        "pk": 1,
+        "fields": {
+            "name": "Michael Spindler",
+            "slug": "michael_spindler",
+            "first_year_active": 1993
+        }
+    }
+]

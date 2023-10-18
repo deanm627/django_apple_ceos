@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Apple CEO List</h1>
+    <ul>
+      {% for ceo in ceo_list %}
+      <li>
+        {{ ceo.name }}
+      </li>
+      {% endfor %}
+    </ul>
+
+{% endblock %}
